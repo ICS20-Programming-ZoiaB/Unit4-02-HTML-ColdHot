@@ -1,0 +1,22 @@
+/* Created by: ZoiaB
+* Created on: Apr 2023
+* This CSS file defines the style for index.html
+* ICS2O-Unit3-04-HTML-FahrenheitCelsius
+*/
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  background-color: #91ab8c;;
+}
+
+h1 {
+  color: white;
+  background-color: #227312;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  padding-left: 10px;
+}
