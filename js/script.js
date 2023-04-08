@@ -10,11 +10,11 @@ function tempSent() {
 
  //declaring original variables & constant
  let temperature = parseFloat(document.getElementById("temp-input").value);
- const TEMP_THRESHOLD = 15;
+ const TEMP_LIMIT = 15;
  let message = "";
 
  //setting different if/then scenarios
- if (temperature >= TEMP_THRESHOLD) {
+ if (temperature >= TEMP_LIMIT) {
    message = "This is considered hot. Prepare for warmer weather!";
  }
 
