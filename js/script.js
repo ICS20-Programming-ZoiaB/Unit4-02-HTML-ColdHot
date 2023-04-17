@@ -6,23 +6,23 @@
 
 "use strict"
 
-function tempSent() {
+function temperatureEvaluate() {
 
- //declaring original variables & constant
+//temperature and message variables & temperature limit value
  let temperature = parseFloat(document.getElementById("temp-input").value);
  const TEMP_LIMIT = 15;
  let message = "";
 
- //setting different if/then scenarios
+//if: for a temperature of 15 degrees or over
  if (temperature >= TEMP_LIMIT) {
    message = "This is considered hot. Prepare for warmer weather!";
  }
 
- //else represents a temperature of less than 15 degrees
+ //else: for a temperature of less than 15 degrees
  else {
    message = "This is considered cold. Prepare for cooler weather!";
  }
 
- //display the correct message to the screen
+ //display the temperature evaluation to the screen
  document.getElementById("results").innerHTML = message;
 }
